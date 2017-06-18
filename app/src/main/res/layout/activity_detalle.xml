@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wilson.ruapuma.Detalle">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:text="Tarifas"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"/>
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent"
+                >
+
+            </View>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="*"
+                android:stretchColumns="*" >
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    >
+
+                    <Button
+                        android:id="@+id/btnNoche"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/dia"
+                        android:drawableLeft="@drawable/ic_action_dia"
+                        android:layout_marginLeft="80dp"
+                        android:text="Diurna"
+                        android:textColor="#ffff" />
+
+                    <Button
+                        android:id="@+id/btnDia"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/noche"
+                        android:drawableLeft="@drawable/ic_action_noche"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:text="Diurna"
+                        android:textColor="#ffff" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="95dp"
+                        android:text="(5:00 a 23:00 pm)"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="15dp"
+                        android:text="(23:00 a 5: 00 am )"/>
+                </TableRow>
+
+            </TableLayout>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="*"
+                android:stretchColumns="*" >
+                <TableRow
+                    android:layout_marginTop="15dp">
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Tarifa normal"
+                        android:textSize="20dp"
+                        android:layout_marginRight="40dp"
+
+                        />
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Bs. 2"
+                        android:textSize="25dp"
+                        android:layout_marginRight="50dp"
+
+                        />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Bs. 3"
+
+
+                        android:textSize="25dp"
+
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_marginTop="15dp">
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Menor 18 años"
+                        android:textSize="18dp"
+
+                        android:layout_marginRight="40dp"
+
+                        />
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Bs. 1.5"
+                        android:layout_gravity="center"
+                        android:textSize="25dp"
+                        android:paddingRight="50dp"
+
+                        />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Bs. 3"
+
+                        android:textSize="25dp"
+
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginTop="15dp">
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Adulto Mayor\n(mayor de 60 años)"
+                        android:textSize="15dp"
+
+                        android:layout_marginRight="30dp"
+
+                        />
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Bs. 1.5"
+                        android:layout_gravity="center"
+                        android:textSize="25dp"
+
+                        android:paddingRight="50dp"
+
+                        />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Bs. 3"
+
+                        android:textSize="25dp"
+
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginTop="15dp">
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Personas con \n Capacidades \nDistintas"
+                        android:textSize="15dp"
+
+                        android:layout_marginRight="40dp"
+
+                        />
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Bs. 1.5"
+                        android:layout_gravity="center"
+                        android:textSize="25dp"
+
+                        android:paddingRight="50dp"
+
+
+                        />
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Bs. 3"
+
+                        android:textSize="25dp"
+
+
+                        />
+                </TableRow>
+                <View
+
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@color/colorAccent"
+                    android:layout_marginTop="30dp">
+
+                </View>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:text="Metodos de Pago"
+                    android:gravity="center_horizontal"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="0dp">
+
+                    <Button
+                        android:layout_width="111dp"
+                        android:layout_height="100dp"
+                        android:background="@color/incaLlojera"
+                        android:drawableLeft="@drawable/ic_action_dinero"
+                        android:layout_marginLeft="40dp"
+
+
+                        android:text="Pago al contado"
+                        android:textColor="#ffff" />
+
+                    <Button
+                        android:layout_width="130dp"
+                        android:layout_height="100dp"
+                        android:background="@color/incaLlojera"
+                        android:drawableLeft="@drawable/ic_action_tarjeta"
+                        android:layout_marginLeft="60dp"
+
+                        android:text="Tarjeta Inteligente"
+                        android:textColor="#ffff" />
+
+                </LinearLayout>
+            </TableLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wilson.ruapuma.Informacion">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/shape_fondo"
+            android:layout_margin="8dp"
+            android:elevation="5dp">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Infomacion del Software"
+
+                        android:textSize="30dp"
+                        android:layout_marginBottom="15dp"
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colorAccent">
+
+                    </View>
+                    <TextView
+                        android:id="@+id/TvNombre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Motivos del desarrollo:"
+                        android:layout_marginTop="20dp"
+                        android:textSize="20dp"/>
+
+
+                    <TextView
+                        android:id="@+id/tvinfo1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="15dp"
+                        android:text="la aplicacion se desarrollo para personas que no tienen conocimiento de las paradas del pumakatari "
+                        android:layout_marginTop="40dp"
+                        android:layout_marginLeft="15dp"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:id="@+id/tvinfo2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="20dp"
+                        android:text="La aplicacion facilita al usuario en poder usar las paradas de una forma optima y no perder el tiempo en busqueda de las mismas "
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="15dp"
+                        android:textSize="20dp"/>
+
+
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

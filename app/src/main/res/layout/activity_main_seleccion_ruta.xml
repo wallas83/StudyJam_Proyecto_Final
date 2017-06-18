@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wilson.ruapuma.MainSeleccionRuta">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:background="@color/colorAccent"
+            >
+
+            <ImageButton
+                android:id="@+id/imgbtnInformacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:background="#0000"
+                android:src="@drawable/ic_action_about"
+                android:paddingTop="8dp"/>
+
+
+
+            <ImageButton
+                android:id="@+id/imgbtnPregunta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#0000"
+                android:layout_marginLeft="80dp"
+                android:src="@drawable/ic_action_pregunta"
+                android:paddingTop="8dp"/>
+            <ImageButton
+                android:id="@+id/imgbtnCuenta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:background="#0000"
+                android:src="@drawable/ic_action_cuenta"
+                android:paddingTop="8dp"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/shape_fondo"
+            android:layout_margin="8dp"
+            android:elevation="5dp">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Rutas"
+                        android:textSize="30dp"
+                        android:layout_marginBottom="30dp"
+                        android:paddingLeft="130dp"
+
+                        android:textColor="#ffff"
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colorAccent">
+
+                    </View>
+
+                    <Button
+                        android:id="@+id/btnincallojeta"
+                        android:layout_width="293dp"
+
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="22dp"
+                        android:layout_marginTop="35dp"
+                        android:background="@drawable/boton"
+                        android:drawableLeft="@drawable/ic_action_ruta"
+                        android:paddingLeft="30dp"
+                        android:text="Inca Llojeta"
+
+
+                        android:textColor="#ffff" />
+
+                    <Button
+                        android:id="@+id/btnVillaSalome"
+                        android:layout_width="293dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="villa Salomé "
+                        android:textColor="#ffff"
+                        android:background="@drawable/botonsalome"
+                        android:drawableLeft="@drawable/ic_action_ruta"
+                        android:paddingLeft="30dp"
+                        android:layout_marginLeft="22dp"
+                        android:layout_marginTop="15dp"
+                        />
+
+                    <Button
+                        android:id="@+id/btnchasquipampa"
+                        android:layout_width="293dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="Chasquipampa"
+                        android:textColor="#ffff"
+                        android:background="@drawable/botonchasqui"
+                        android:drawableLeft="@drawable/ic_action_ruta"
+                        android:paddingLeft="30dp"
+                        android:layout_marginLeft="22dp"
+                        android:layout_marginTop="15dp"
+                        />
+
+                    <Button
+                        android:id="@+id/btnCajaFerroviaria"
+                        android:layout_width="293dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="caja Ferroviaria"
+                        android:textColor="#ffff"
+                        android:background="@drawable/botonferroviaria"
+                        android:drawableLeft="@drawable/ic_action_ruta"
+                        android:paddingLeft="30dp"
+                        android:layout_marginLeft="22dp"
+                        android:layout_marginTop="15dp"
+                        />
+
+                    <Button
+                        android:id="@+id/btnkalajahuira"
+                        android:layout_width="293dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="Kalajahuira"
+                        android:textColor="#ffffff"
+                        android:background="@drawable/botonkala"
+                        android:drawableLeft="@drawable/ic_action_ruta"
+                        android:paddingLeft="30dp"
+                        android:layout_marginLeft="22dp"
+                        android:layout_marginTop="15dp"
+                        />
+
+                    <Button
+                        android:id="@+id/btnIrpavi2"
+                        android:layout_width="293dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="Irpavi ii"
+                        android:textColor="#ffffff"
+                        android:background="@drawable/botonirpavi"
+                        android:drawableLeft="@drawable/ic_action_ruta"
+                        android:paddingLeft="30dp"
+                        android:layout_marginLeft="22dp"
+                        android:layout_marginTop="15dp"
+                        />
+
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</LinearLayout>

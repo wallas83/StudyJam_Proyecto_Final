@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#607D8B</color>
+    <color name="colorPrimaryDark">#455A64</color>
+    <color name="colorAccent">#9E9E9E</color>
+    <color name="primary_light">#CFD8DC</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+
+    <color name="irpavi">#19A77F</color>
+    <color name="incaLlojera">#49436E</color>
+    <color name="villasalome">#1aae3a</color>
+    <color name="chasquipampa">#d96b30</color>
+    <color name="cajaFerroviaria">#1E52BF</color>
+    <color name="kalajahuira">#F661D4</color>
+    <color name="dia">#DBC504</color>
+
+    <color name="noche">#49436E</color>
+</resources>
